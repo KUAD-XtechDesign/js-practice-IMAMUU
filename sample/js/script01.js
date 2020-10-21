@@ -5,7 +5,7 @@ $(function(){
 })
 
 $("#button02").on("click",function(){
-        $(".bakc-blue").hide();
+        $(".back-blue").hide();
 })
 
 $("#button03").on("click",function(){

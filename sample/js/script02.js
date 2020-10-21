@@ -1,27 +1,27 @@
 $(function(){
 
-    let txt = "おはようございます！";
-    let txt = "お元気ですか？";
+    let txt1 = "おはようございます！";
+    let txt2 = "お元気ですか？";
     let num1 = 20;
     let num2 = 32;
 
-    $("#buton01").on("click",function(){
+    $("#button01").on("click",function(){
         $("#content").text("こんにちは！");
     })
 
-    $("#buton02").on("click",function(){
+    $("#button02").on("click",function(){
         $("#content").text(txt1);
     })
 
-    $("#buton03").on("click",function(){
-        $("#content").text(txt2);
+    $("#button03").on("click",function(){
+        $("#content").text(txt1 + txt2);
     })
 
-    $("#buton02").on("click",function(){
+    $("#button04").on("click",function(){
         $("#content").text(num1 + num2);
     })
 
-    $("#buton02").on("click",function(){
+    $("#button05").on("click",function(){
         $("#content").text(num1+ "たす" + num2 + "は" + (num1 + num2) + "です");
     })
 });
